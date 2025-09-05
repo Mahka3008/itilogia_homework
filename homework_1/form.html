@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <a href="index.html">Главная</a>
+      <a href="index.html#table">Сравнение с 13 PRO</a>
+      <a href="second.html">Отзывы</a>
+      <a href="form.html">Заказать</a>
+    </header>
+
+    <form
+      action="https://webhook.site/da5b0ecf-bd39-4f3a-837f-80784c9c06de"
+      method="post"
+    >
+      <h1>Заказать Iphone 13 Pro Max</h1>
+      <label>
+        Имя
+        <input type="text" name="name" required />
+      </label>
+      <br />
+      <br />
+      <label>
+        Фамилия
+        <input type="text" name="second_name" required />
+      </label>
+      <br />
+      <br />
+      <label>
+        Телефон
+        <select name="code_number" required>
+          <option value="+375">+375</option>
+          <option value="+7">+7</option>
+          <option value="+380">+380</option>
+        </select>
+        <input type="number" name="phone_number" />
+      </label>
+      <br />
+      <br />
+      <label>
+        Email
+        <input type="email" name="email" required />
+      </label>
+      <br />
+      <br />
+      <label>
+        Объём памяти
+        <select name="memory">
+          <option value="64">64</option>
+          <option value="256">256</option>
+          <option value="512">512</option>
+        </select>
+      </label>
+
+      <br />
+      <br />
+
+      <label>
+        Способ доставки
+        <br />
+        <input
+          type="radio"
+          name="delivery"
+          id="cour"
+          value="Курьером"
+          required
+        />
+        <label for="">Курьером</label>
+        <br />
+        <input
+          type="radio"
+          name="delivery"
+          id="sam"
+          value="Самовывоз"
+          required
+        />
+        <label for="">Самовывоз</label>
+      </label>
+      <br />
+      <br />
+      <label>
+        Добавить к заказу
+        <br />
+        <input
+          type="checkbox"
+          name="more[]"
+          id="case"
+          value="Прозрачный чехол"
+        />
+        <label for="case">Прозрачный чехол</label>
+        <br />
+        <input
+          type="checkbox"
+          name="more[]"
+          id="charger"
+          value="Беспроводное зарядное устройство MagSafe"
+        />
+        <label for="charger">Беспроводное зарядное устройство MagSafe</label>
+        <br />
+        <input
+          type="checkbox"
+          name="more[]"
+          id="headphones"
+          value="Наушники AirPods"
+        />
+        <label for="headphones">Наушники AirPods</label>
+        <br />
+      </label>
+      <br />
+      <label>
+        Комментарий к заказу
+        <br />
+        <textarea name="comment" cols="30" rows="30"></textarea>
+      </label>
+
+      <label for="">
+        <p>
+          <input type="checkbox" name="conditions" />Я принимаю
+          <a href="">условия сайта</a>
+        </p>
+      </label>
+
+      <label for="">
+        <input type="submit" name="button" value="заказать" />
+      </label>
+    </form>
+    <footer>
+      <hr />
+      <p>Все права защищены</p>
+    </footer>
+  </body>
+</html>
