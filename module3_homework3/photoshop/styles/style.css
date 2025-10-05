@@ -1,0 +1,267 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "monster";
+  src: url(../assets/fonts/Montserrat-Medium.ttf);
+}
+
+@font-face {
+  font-family: "sem";
+  src: url(../assets/fonts/Spectralscsemibold.ttf);
+}
+
+body {
+  font-family: "monster";
+  background-color: #d5d9da;
+}
+
+.main-img {
+  background-image: url("../assets/images/bg.png");
+  background-size: cover;
+  background-position: center;
+  height: 811px;
+}
+
+.header {
+  background-color: #edeef0;
+  padding: 16px 0;
+  position: sticky;
+  top: 0;
+  z-index: 5;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header .container {
+  font-size: 0;
+}
+
+.header .logo {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.header .menu {
+  margin-left: 354px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.header .menu ul {
+  list-style: none;
+  font-size: 0;
+}
+
+.header .menu ul a {
+  font-size: 16px;
+  color: rgb(70, 80, 85);
+  line-height: 1.2;
+  text-decoration: none;
+}
+
+.header .menu ul li {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 28px;
+}
+
+.header-actions {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 98px;
+}
+
+.btn {
+  font-size: 16px;
+  line-height: 11px;
+  padding: 14px;
+  border-radius: 20px;
+  cursor: pointer;
+  border: 0;
+  width: 205px;
+  font-family: "monster";
+}
+
+.btn-transparent {
+  color: rgb(121, 136, 144);
+  background-color: transparent;
+  border: 1px solid #818282;
+  width: 205px;
+}
+
+.galery {
+  padding: 102px 0 55px 0;
+}
+
+.galery h2 {
+  font-size: 40px;
+  font-family: "sem";
+  color: rgb(47, 40, 34);
+  text-transform: uppercase;
+  line-height: 1.2;
+  margin-bottom: 54px;
+  text-align: center;
+}
+
+.galery-discription {
+  font-size: 18px;
+  color: rgb(62, 52, 44);
+  line-height: 1.2;
+  text-align: center;
+  margin-bottom: 18px;
+}
+
+.galery-items {
+  margin-right: -12px;
+  margin-left: -12px;
+  font-size: 0;
+}
+
+.galery-item {
+  margin: 12px 11px;
+  display: inline-block;
+  vertical-align: middle;
+  width: 384px;
+  height: 290px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.galery-item-big {
+  width: 792px;
+}
+
+.galery-text {
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  left: 20px;
+  bottom: 20px;
+  position: absolute;
+  z-index: 2;
+}
+
+.galery-eye {
+  opacity: 0.6;
+  background-color: #000;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  text-align: center;
+  display: none;
+}
+
+.galery-eye img {
+  left: calc(50% - 35px);
+  top: calc(50% - 20px);
+  position: absolute;
+}
+
+.galery-item:hover .galery-eye {
+  display: block;
+}
+
+.tours {
+  padding: 54px 0 88px 0;
+}
+
+.tours h2 {
+  font-size: 40px;
+  font-family: "sem";
+  color: rgb(47, 40, 34);
+  text-transform: uppercase;
+  line-height: 1.2;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.tour-items {
+  margin-right: -12px;
+  margin-left: -12px;
+  font-size: 0;
+}
+
+.tour-item {
+  margin: 0 12px;
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 384px;
+  position: relative;
+}
+
+.tour-item-info {
+  background-color: #31393f;
+  padding: 22px 22px 40px 22px;
+}
+
+.tour-item-text {
+  font-size: 22px;
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  text-align: center;
+  margin-bottom: 37px;
+}
+
+.tour-item-action{
+    text-align: center;
+}
+
+.btn-filled {
+  background-color: rgb(218, 130, 70);
+  font-size: 18px;
+  color: rgb(37, 41, 43);
+}
+
+.btn-filled:hover{
+  box-shadow: 0px 4px 14.25px 0.75px rgba(217, 149, 103, .8);
+}
+
+.fix-block{
+    width: 46px;
+    height: 46px;
+  background-color: rgb(218, 130, 70);
+  line-height: 46px;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.fix-block img{
+    vertical-align: middle;
+}
+
+.footer{
+    background-color: #31393f;
+    padding: 54px 0 49px 0;
+
+}
+
+.footer .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-contact{
+  font-size: 18px;
+  color: rgb(167, 185, 197);
+  line-height: 1.2;
+}
+
+.footer-contact div{
+    margin-bottom: 15px;
+}
+
+.click{
+    cursor: pointer;
+}
