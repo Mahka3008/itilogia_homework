@@ -1,0 +1,657 @@
+/* Reset and base styles  */
+* {
+  padding: 0px;
+  margin: 0px;
+  border: none;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Links */
+
+a,
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/* Common */
+
+aside,
+nav,
+footer,
+header,
+section,
+main {
+  display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+ul,
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+img,
+svg {
+  max-width: 100%;
+  height: auto;
+}
+
+address {
+  font-style: normal;
+}
+
+/* Form */
+
+input,
+textarea,
+button,
+select {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  background-color: transparent;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button,
+input[type="submit"] {
+  display: inline-block;
+  box-shadow: none;
+  background-color: transparent;
+  background: none;
+  cursor: pointer;
+}
+
+input:focus,
+input:active,
+button:focus,
+button:active {
+  outline: none;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+label {
+  cursor: pointer;
+}
+
+legend {
+  display: block;
+}
+
+input[type="file"] {
+  max-width: 100%;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("../assets/fonts/gilroy-medium.ttf");
+}
+
+@font-face {
+  font-family: "GilroyB";
+  src: url("../assets/fonts/gilroy-bold.ttf");
+}
+
+@font-face {
+  font-family: "Tavolga";
+  src: url("../assets/fonts/tavolga-free.ttf");
+}
+
+@font-face {
+  font-family: "GilroyEB";
+  src: url(../assets/fonts/gilroy-extrabold.otf);
+}
+
+body {
+  background-color: #eba8b1;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: #eba8b1;
+  padding: 38px 0 25px 0;
+}
+
+.container__header {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.number__header {
+  margin-left: auto;
+}
+
+.menu ul {
+  display: flex;
+  gap: 40px;
+  margin-left: 232px;
+}
+
+.header a {
+  font-size: 14px;
+  font-family: "Gilroy";
+  color: rgb(119, 11, 29);
+  border-bottom: 2px solid transparent;
+  padding-bottom: 3px;
+  transition: all 0.5s linear;
+}
+
+.menu ul li a:hover {
+  border-bottom: 2px solid rgb(119, 11, 29);
+  transform: scale(1.1);
+}
+
+.number__header a {
+  font-size: 16px;
+  font-family: "GilroyB";
+  color: rgb(255, 255, 255);
+}
+
+.container__discription {
+  display: flex;
+  padding-top: 128px;
+  justify-content: space-between;
+  gap: 14px;
+  align-items: center;
+}
+
+.discription-block {
+  max-width: 573px;
+}
+
+.title-discription {
+  font-size: 55px;
+  font-family: "Tavolga";
+  color: rgb(255, 255, 255);
+  line-height: 1.091;
+}
+
+.txt-discription {
+  padding-top: 57px;
+  font-size: 18px;
+  font-family: "Tavolga";
+  color: rgb(255, 255, 255);
+  line-height: 1.389;
+}
+
+.active-discription {
+  padding-top: 90px;
+  padding-bottom: 145px;
+}
+
+.btn {
+  background-image: -moz-linear-gradient(
+    90deg,
+    rgb(113, 8, 30) 0%,
+    rgb(215, 72, 92) 100%
+  );
+  background-image: -webkit-linear-gradient(
+    90deg,
+    rgb(113, 8, 30) 0%,
+    rgb(215, 72, 92) 100%
+  );
+  background-image: -ms-linear-gradient(
+    90deg,
+    rgb(113, 8, 30) 0%,
+    rgb(215, 72, 92) 100%
+  );
+  width: 240px;
+  height: 60px;
+  border-radius: 30px;
+  font-size: 18px;
+  font-family: "GilroyB";
+  color: rgb(255, 255, 255);
+  transition: all 0.5s ease;
+}
+
+.btn:hover {
+  box-shadow: 0px 5px 9px 1px rgba(130, 19, 40, 0.5);
+}
+
+.title-discription-two-block {
+  font-size: 45px;
+  font-family: "Tavolga";
+  color: rgb(51, 25, 7);
+  line-height: 1.222;
+  max-width: 469px;
+}
+
+.txt-discription-two-block {
+  font-size: 18px;
+  font-family: "Gilroy";
+  color: rgb(51, 25, 7);
+  line-height: 1.556;
+  max-width: 396px;
+  padding-top: 59px;
+}
+
+.discription-macarons-two-block {
+  background-color: #ffefef;
+}
+
+.advantages {
+  padding-top: 88px;
+  background-color: #ffefef;
+  padding-bottom: 120px;
+}
+
+.cards__advantages {
+  display: grid;
+  grid-template-columns: repeat(4, 220px);
+  gap: 87px;
+}
+
+.number__advantages {
+  border-radius: 50%;
+  background-color: #821328;
+  width: 70px;
+  height: 70px;
+  position: relative;
+  margin-bottom: 13px;
+}
+
+.number__advantages span {
+  font-size: 60px;
+  font-family: "GilroyEB";
+  color: #ffffff;
+  position: absolute;
+  text-align: center;
+  left: 21px;
+  top: 12px;
+  transition: all 0.5s ease;
+}
+
+.card__advantages:hover .number__advantages {
+  background-color: #eba8b1;
+}
+
+.card__advantages:hover span {
+  color: #821328;
+}
+
+.title__advantages {
+  font-size: 20px;
+  font-family: "GilroyEB";
+  color: rgb(51, 25, 7);
+  padding-bottom: 13px;
+}
+
+.discription__advantages {
+  font-size: 15px;
+  font-family: "Gilroy";
+  color: rgb(51, 25, 7);
+  line-height: 1.333;
+  padding-bottom: 20px;
+}
+
+.container__macarons {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.container__macarons h2 {
+  font-size: 45px;
+  font-family: "Tavolga";
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin-bottom: 81px;
+}
+
+.cards__macarons {
+  display: grid;
+  grid-template-columns: repeat(4, 263px);
+  gap: 30px;
+  padding-top: 87px;
+}
+
+.card__macarons {
+  border: 2px solid #fff;
+  border-radius: 20px;
+  padding: 109px 21px 27px 21px;
+  position: relative;
+}
+
+.img__macaron {
+  z-index: 2;
+  position: absolute;
+  bottom: 173px;
+  right: 35px;
+  transition: all 0.5s ease;
+}
+
+.card__macarons:hover .img__macaron {
+  transform: scale(1.1);
+}
+
+.title__macaron {
+  font-size: 18px;
+  font-family: "Tavolga";
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+.order__macaron {
+  padding-top: 26px;
+  display: flex;
+  gap: 36px;
+}
+
+.price {
+  padding-top: 17px;
+}
+
+.quantity,
+.price {
+  font-size: 15px;
+  font-family: "Gilroy";
+  color: rgb(255, 255, 255);
+  width: 58px;
+}
+
+.btn__macaron {
+  width: 130px;
+  height: 50px;
+}
+
+.form {
+  background-color: #ffefef;
+}
+
+.container__form {
+  padding-top: 98px;
+  padding-bottom: 120px;
+  display: flex;
+  gap: 162px;
+  align-items: center;
+}
+
+.order__form {
+  width: 406px;
+}
+
+.title__form {
+  font-size: 45px;
+  font-family: "Tavolga";
+  color: rgb(51, 25, 7);
+  /* -moz-transform: matrix(1.00011967125209, 0, 0, 1.00072983989549, 0, 0);
+  -webkit-transform: matrix(1.00011967125209, 0, 0, 1.00072983989549, 0, 0);
+  -ms-transform: matrix(1.00011967125209, 0, 0, 1.00072983989549, 0, 0); */
+  padding-bottom: 41px;
+}
+
+.discription__form {
+  font-size: 18px;
+  font-family: "Gilroy";
+  color: rgb(51, 25, 7);
+  text-align: left;
+  /* -moz-transform: matrix(1.00011967125209, 0, 0, 1.00072983989549, 0, 0);
+  -webkit-transform: matrix(1.00011967125209, 0, 0, 1.00072983989549, 0, 0);
+  -ms-transform: matrix(1.00011967125209, 0, 0, 1.00072983989549, 0, 0); */
+  padding-bottom: 48px;
+}
+
+.form {
+  display: flex;
+  position: relative;
+}
+
+.straw {
+  position: absolute;
+  top: 100px;
+  left: 240px;
+  animation: pos 4s infinite;
+}
+
+.straw-two {
+  position: absolute;
+  top: 526px;
+  left: 1300px;
+  animation: pos2 3s infinite;
+}
+
+@keyframes pos {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-40px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes pos2 {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-35px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.dis-mr {
+  font-size: 18px;
+  font-family: "GilroyB";
+  color: rgb(18, 10, 6);
+  /* -moz-transform: matrix(1.00011967125209, 0, 0, 1.00072983989549, 0, 0);
+  -webkit-transform: matrix(1.00011967125209, 0, 0, 1.00072983989549, 0, 0);
+  -ms-transform: matrix(1.00011967125209, 0, 0, 1.00072983989549, 0, 0); */
+  margin-bottom: 20px;
+}
+
+.dis-mr-two {
+  margin-top: 40px;
+}
+
+input {
+  font-size: 15px;
+  font-family: "GilroyB";
+  color: rgb(118, 12, 34);
+  /* -moz-transform: matrix(1.00011967125209, 0, 0, 1.00072983989549, 0, 0);
+  -webkit-transform: matrix(1.00011967125209, 0, 0, 1.00072983989549, 0, 0);
+  -ms-transform: matrix(1.00011967125209, 0, 0, 1.00072983989549, 0, 0); */
+  padding: 22px 26px 24px 26px;
+  border: 2px solid rgb(118, 12, 34);
+  border-radius: 30px;
+  width: 294px;
+  height: 60px;
+}
+
+input::placeholder {
+  font-size: 15px;
+  font-family: "GilroyB";
+  color: rgb(118, 12, 34);
+  /* -moz-transform: matrix(1.00011967125209, 0, 0, 1.00072983989549, 0, 0);
+  -webkit-transform: matrix(1.00011967125209, 0, 0, 1.00072983989549, 0, 0);
+  -ms-transform: matrix(1.00011967125209, 0, 0, 1.00072983989549, 0, 0); */
+}
+
+.input {
+  margin-bottom: 15px;
+}
+
+.btn___form {
+  width: 294px;
+  height: 60px;
+}
+
+.footer {
+  position: relative;
+  background-color: #c0707c;
+}
+
+.container__footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 73px 0 62px 0;
+}
+
+.inst__footer {
+  text-align: center;
+  font-family: "GilroyB";
+  display: flex;
+  flex-direction: column;
+}
+
+.inst__footer a {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+}
+
+
+
+.link-inst{
+  margin-top: 14px;
+}
+
+.img__footer div {
+  font-size: 12px;
+  font-family: "Gilroy";
+  margin-top: 19px;
+  color: rgb(227, 172, 180);
+  
+}
+
+.number__footer a {
+  font-size: 16px;
+  font-family: "GilroyB";
+  color: rgb(255, 255, 255);
+}
+
+.present {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  width: 90px;
+  height: 90px;
+  right: 30px;
+  bottom: 30px;
+  background-image: -moz-linear-gradient(
+    90deg,
+    rgb(113, 8, 30) 0%,
+    rgb(215, 72, 92) 100%
+  );
+  background-image: -webkit-linear-gradient(
+    90deg,
+    rgb(113, 8, 30) 0%,
+    rgb(215, 72, 92) 100%
+  );
+  background-image: -ms-linear-gradient(
+    90deg,
+    rgb(113, 8, 30) 0%,
+    rgb(215, 72, 92) 100%
+  );
+  border-radius: 50%;
+  transition: all 0.5s ease;
+}
+
+.present:hover {
+  box-shadow: 0px 5px 9px 1px rgba(130, 19, 40, 0.5);
+}
+
+.anim-present{
+  position: relative;
+}
+
+.order-present {
+  position: fixed;
+  right: 120px;
+  opacity: 0;
+  z-index: 2;
+  transition: all 0.5s ease;
+}
+
+.present:hover ~ .order-present {
+  opacity: 1;
+  bottom: 40px;
+}
+
+ .img-discription-a{
+  position: relative;
+ }
+
+.img-discription-a::before, .img-discription-a::after {
+  content: "";
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  z-index: -1;
+  animation: pulse2 2s infinite;
+  border: 2px solid #821328;
+  overflow: hidden;
+  top: 120px;
+  right: 150px;
+}
+
+ .img-discription-a::after{
+  animation-delay: 0.5s;
+ }
+
+
+@keyframes pulse2 {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+
+  100% {
+    transform: scale(3);
+    opacity: 0;
+  }
+}
+
+
+.header__burger{
+  display: none;
+}
+
+.menu__close{
+  display: none;
+}
