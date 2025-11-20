@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: 'NunitoLegular';
+  src: url(../assets/fonts/Nunitoregular.woff2);
+}
+
+@font-face {
+  font-family: 'NunitoLight';
+  src: url(../assets/fonts/Nunitolight.woff2);
+}
+
+@font-face {
+  font-family: 'NunitoBold';
+  src: url(../assets/fonts/Nunitobold.woff2);
+}
+
+body {
+  background: linear-gradient(to right, #fff 50%, #f8f8fa 50%);
+}
+
+.logo {
+  margin-top: 27px;
+  text-align: center;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.block-img {
+  width: 50%;
+}
+
+.img {
+  max-width: 100%;
+}
+
+.block-form {
+  width: 50%;
+  margin-top: 112px;
+}
+
+.block-form form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.block-form h1 {
+  margin-bottom: 7px;
+  font-family: NunitoBold;
+  font-size: 36px;
+}
+
+.block-form p {
+  margin-bottom: 42px;
+  font-family: NunitoLegular;
+  font-size: 22px;
+  color: #636363;
+  max-width: 496px;
+}
+
+.block-form label {
+  margin-bottom: 20px;
+}
+
+.block-form label #agreement {
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.block-form form a {
+  margin: 0 auto;
+  padding-top: 44px;
+  text-decoration: none;
+  color: #636363;
+  font-size: 16px;
+  font-family: NunitoBold;
+  text-align: center;
+}
+
+input {
+  outline: none;
+  border: 0;
+  border-bottom: 1px solid #c6c6c4;
+  font-family: NunitoLegular;
+  font-size: 20px;
+  color: #323232;
+}
+
+label {
+  font-family: NunitoLegular;
+  font-size: 16px;
+  color: #c6c6c4;
+  display: flex;
+  flex-direction: column;
+}
+
+form * {
+  width: 452px;
+}
+
+.agreement {
+  font-family: NunitoBold;
+  font-size: 16px;
+  color: #636363;
+  display: inline;
+}
+
+.btn {
+  width: 210px;
+  height: 70px;
+  border-radius: 40px;
+  border: 0;
+  background-color: #dd3142;
+  color: #ffffff;
+  font-family: NunitoLegular;
+  margin: 0 auto;
+  cursor: pointer;
+  font-family: NunitoBold;
+}
+
+.popup {
+  width: 400px;
+  height: 180px;
+  background-color: #f8f8fa;
+  padding: 20px;
+  border-radius: 50px;
+  border: 1px solid #dd3142;
+  position: fixed;
+  top: 20%;
+  left: calc(50% - 200px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15), 0 1px 4px rgba(0, 0, 0, 0.1);
+  display: none;
+}
+
+.popup h1 {
+  font-family: NunitoBold;
+  font-size: 24px;
+  padding-top: 10px;
+}
+
+.popup .pop-btn {
+  width: 190px;
+  height: 50px;
+  border-radius: 40px;
+  border: 0;
+  background-color: #dd3142;
+  color: #ffffff;
+  font-family: NunitoBold;
+  cursor: pointer;
+  display: block;
+  margin-left: auto;
+  margin-top: 30px;
+}
+
+#agreement {
+  width: 20px;
+}
