@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>forms</title>
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <div class="logo">
+      <img src="assets/images/homeWorks.png" alt="logo" />
+    </div>
+    <main class="main">
+      <div class="container">
+        <section class="block-form">
+          <form action="">
+            <h1>Get your free account</h1>
+            <p>Try homeWorks BUSINESS free for 15 days. Downgrade to Basic (Free Forever) anytime.</p>
+            <label for="fullName" id="deleteFullName"> Full Name <input type="text" name="fullName" id="fullName" /> </label>
+            <label for="lastName"> Your username <input type="text" name="lastName" id="lastName" /> </label>
+            <label for="mail" id="deleteMail"> E-mail <input type="email" name="mail" id="mail" /> </label>
+            <label for="password"> Password <input type="password" name="password" id="password" /> </label>
+            <label for="repeatPassword" id="deleteRepeatPassword">
+              Repeat Password <input type="password" name="repeatPassword" id="repeatPassword" />
+            </label>
+            <label for="agreement" class="agreement" id="deleteAgreement"
+              ><input type="checkbox" name="agreement" id="agreement" /> Agree to our Terms of Service and Privacy
+              Statement</label
+            >
+            <button class="btn" id="btn" type="submit">Sign Up</button>
+            <a href="#" id="logIn">Already have an account?</a>
+          </form>
+        </section>
+        <section class="block-img">
+          <div class="img">
+            <img src="assets/images/image.png" alt="rocket" />
+          </div>
+        </section>
+      </div>
+    </main>
+    <div class="popup" id="popup">
+      <h1>На вашу почту выслана ссылка, перейдите по ней, чтобы завершить регистрацию</h1>
+      <button id="pop-btn" class="pop-btn">OK</button>
+    </div>
+    <script src="scripts/script.js"></script>
+  </body>
+</html>
