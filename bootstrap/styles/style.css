@@ -1,0 +1,30 @@
+:root{
+  --bgc: var(--bs-indigo);
+  --btn-w: 200px;
+}
+
+.btn-primary,
+.bg-primary,
+.border-primary {
+  background-color:  var(--bgc) !important;
+  border-color: var(--bgc)!important;
+}
+
+.btn-outline-primary {
+  color: var(--bgc)!important;
+  border-color: var(--bs-indigo)!important;
+}
+
+.btn-outline-primary:hover {
+  background-color:var(--bgc)!important;
+  border-color: var(--bgc)!important;
+  color: white !important;
+}
+
+.accordion-button::after {
+  filter: invert(1) !important;
+}
+
+.btn-width{
+  width: var(--btn-w);
+}
