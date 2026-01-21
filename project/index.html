@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="styles/animate.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/adap.css" />
+    <title>ЭкЗоТиЧеСкИе ФрУкТы</title>
+  </head>
+  <body>
+    <section id="section">
+      <img src="asseets/img/bg.png" alt="" class="bg_header" />
+      <div class="container first__conatiner">
+        <header class="header">
+          <div class="header__logo">
+            <img src="asseets/img/лого.png" alt="logo" class="logo" />
+            <img src="asseets/img/лого_2.png" class="logo_2" alt="" />
+          </div>
+          <div class="header__menu menu" id="menu">
+            <ul class="header__menu__items">
+              <li class="header__items">
+                <a href="#product__day" class="items">Товар дня</a>
+              </li>
+              <li class="header__items">
+                <a href="#why" class="items">Почему мы</a>
+              </li>
+              <li class="header__items">
+                <a href="#fruit__oreder" class="items">Наши фрукты</a>
+              </li>
+              <li class="header__items">
+                <a href="#order-points" class="items">Как заказать</a>
+              </li>
+              <li class="header__items">
+                <a href="#reviews" class="items">Отзывы</a>
+              </li>
+            </ul>
+            <div class="header__burger" id="burger">
+              <svg
+                enable-background="new 0 0 512 512"
+                height="512"
+                viewBox="0 0 512 512"
+                width="512"
+                xmlns="http://www.w3.org/2000/svg"
+                class="header__burger"
+              >
+                <path
+                  d="m464.883 64.267h-417.766c-25.98 0-47.117 21.136-47.117 47.149 0 25.98 21.137 47.117 47.117 47.117h417.766c25.98 0 47.117-21.137 47.117-47.117 0-26.013-21.137-47.149-47.117-47.149z"
+                />
+                <path
+                  d="m464.883 208.867h-417.766c-25.98 0-47.117 21.136-47.117 47.149 0 25.98 21.137 47.117 47.117 47.117h417.766c25.98 0 47.117-21.137 47.117-47.117 0-26.013-21.137-47.149-47.117-47.149z"
+                />
+                <path
+                  d="m464.883 353.467h-417.766c-25.98 0-47.117 21.137-47.117 47.149 0 25.98 21.137 47.117 47.117 47.117h417.766c25.98 0 47.117-21.137 47.117-47.117 0-26.012-21.137-47.149-47.117-47.149z"
+                />
+              </svg>
+            </div>
+          </div>
+
+          <div class="dropdown" id="dropdown">
+            <div class="dropdown__container">
+              <h2 class="dropdown__title">Меню</h2>
+              <div class="dropdown__menu menu">
+                <ul class="header__menu__items__dropdown">
+                  <li class="header__items">
+                    <a href="#product__day" class="items">Товар дня</a>
+                  </li>
+                  <li class="header__items">
+                    <a href="#why" class="items">Почему мы</a>
+                  </li>
+                  <li class="header__items">
+                    <a href="#fruit__oreder" class="items">Наши фрукты</a>
+                  </li>
+                  <li class="header__items">
+                    <a href="#order-points" class="items">Как заказать</a>
+                  </li>
+                  <li class="header__items">
+                    <a href="#reviews" class="items">Отзывы</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="close_dropdown" id="close_dropdown">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  width="15px"
+                  height="13px"
+                >
+                  <image
+                    x="0px"
+                    y="0px"
+                    width="15px"
+                    height="13px"
+                    xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAANCAQAAADcF/zKAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAHdElNRQfqARUWNCJXTXGIAAAAeklEQVQY04XQoQ2EUBCE4Y8Eg8EhsXg8jWGuAFqgBBI8BVAAkgSLRFHAnYGEkJd36yZ/dndmWLXC01ppHHrpC6V6hwYqm0n+gLnJprplYbYoL1VazIrnscxgV6O2G2RvI4nO6ePUScJeR19jGEW3o7+jzqO5/7QW7fwH4f0rJFUZWFoAAAAASUVORK5CYII="
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </header>
+
+        <div class="discription wow animate__backInLeft">
+          <img src="asseets/img/Фигура2_520.png" alt="" class="bg_header2" />
+          <div class="discription__fruit">
+            <h1 class="discription__fruit__title">Только свежие экзотические фрукты в нашем магазине</h1>
+            <div class="discription__fruit__txt">Вкусные и необычные фрукты, которые вы не найдете в магазине!</div>
+            
+              <a href="#fruit__oreder" class="discription__btn btn">Посмотреть фрукты</a>
+            
+          </div>
+          <div class="discription__img">
+            <img src="asseets/img/glav.png" alt="ananas" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="container ">
+      <div class="img__position__left">
+        <img src="asseets/img/Medium+Hawaiian+Palm+Leaf+Stem.png" alt="папоротник" />
+      </div>
+      <div class="aboutUs wow animate__backInLeft">
+        <div class="img__aboutUs">
+          <img src="asseets/img/about.png" alt="" />
+        </div>
+        <div class="about__discription">
+          <h2 class="about__title">О нас</h2>
+          <div class="about__txt">
+            <p>
+              Наш магазин поможет вам почувствовать вкус местных фруктов из различных уголков нашей планеты. Благодаря
+              <span>5 летнему опыту работы на рынке</span>, мы отлично наладили поставки самых лучших фруктов из самых
+              далеких стран.
+            </p>
+            <p>
+              Поэтому вы сможете насладиться ими через совсем небольшое время после оформления заказа. Также все фрукты
+              проходят <span>ручной отбор</span>, поэтому на своем столе вы увидите только качественные и свежие
+              продукты.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="product__day" id="product__day">
+        <h2 class="product__day__title">Товар дня</h2>
+        <div class="product__day__product">
+          <div class="product__day__slider vertical-slider">
+            <div class="swiper vertical-swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="asseets/img/1.png" alt="mango" /></div>
+                <div class="swiper-slide"><img src="asseets/img/mango-descripcion.png" alt="" /></div>
+                <div class="swiper-slide"><img src="asseets/img/3.png" alt="" /></div>
+                <div class="swiper-slide"><img src="asseets/img/1.png" alt="mango" /></div>
+                <div class="swiper-slide"><img src="asseets/img/mango-descripcion.png" alt="" /></div>
+                <div class="swiper-slide"><img src="asseets/img/3.png" alt="" /></div>
+                <div class="swiper-slide big_mango_slider"><img src="asseets/img/big-mango.png" alt="" /></div>
+              </div>
+            </div>
+            <img src="asseets/img/prew.svg" alt="Вверх" class="vertical-next" />
+            <img src="asseets/img/next.svg" alt="Вниз" class="vertical-prev" />
+          </div>
+          <div class="product__day__slider horizontal-slider">
+            <div class="swiper horizontal-swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="asseets/img/1.png" alt="mango" /></div>
+                <div class="swiper-slide"><img src="asseets/img/mango-descripcion.png" alt="" /></div>
+                <div class="swiper-slide"><img src="asseets/img/3.png" alt="" /></div>
+                <div class="swiper-slide big_mango_slider"><img src="asseets/img/big-mango.png" alt="" /></div>
+                <div class="swiper-slide"><img src="asseets/img/1.png" alt="mango" /></div>
+                <div class="swiper-slide"><img src="asseets/img/mango-descripcion.png" alt="" /></div>
+                <div class="swiper-slide"><img src="asseets/img/3.png" alt="" /></div>
+                <div class="swiper-slide big_mango_slider"><img src="asseets/img/big-mango.png" alt="" /></div>
+                <div class="swiper-slide"><img src="asseets/img/1.png" alt="mango" /></div>
+                <div class="swiper-slide"><img src="asseets/img/mango-descripcion.png" alt="" /></div>
+                <div class="swiper-slide"><img src="asseets/img/3.png" alt="" /></div>
+                <div class="swiper-slide big_mango_slider"><img src="asseets/img/big-mango.png" alt="" /></div>
+              </div>
+            </div>
+            <div class="slider_nav">
+              <img src="asseets/img/prew.svg" alt="Назад" class="h-prev" />
+              <img src="asseets/img/next.svg" alt="Вперед" class="h-next" />
+            </div>
+          </div>
+          <div class="img_and_time_container">
+            <div class="img__product__fruit">
+              <img src="asseets/img/big-mango.png" alt="" class="mango__img" />
+              <img src="asseets/img/акции.png" alt="" class="position" />
+            </div>
+            <div class="time__sale">
+              <p class="sale__title">До конца акции осталось:</p>
+              <p class="circle"><span class="circle__span">26</span> <span>часов</span></p>
+              <p class="circle"><span class="circle__span">55</span> <span>минут</span></p>
+              <p class="circle"><span class="circle__span">30 </span><span>секунд</span></p>
+            </div>
+          </div>
+
+          <div class="discription__product__day">
+            <div class="title__product__day">Манго</div>
+            <div class="txt__product__day">
+              Предлагаем попробовать спелый и сочный манго по супер цене прямо из солнечного и далекого Вьетнама.
+            </div>
+            <div class="price__product__day">
+              <div class="txt__price__product__day">Цена, кг:</div>
+              <div class="number__price__product__day">65 руб.</div>
+              <div class="number__old__price__product__day">78 руб.</div>
+            </div>
+            <button class="btn">Заказать</button>
+            <div class="buy__product__day">
+              <div class="img__buy__product__day">
+                <img src="asseets/img/mango-mini.png" alt="" />
+              </div>
+              <p>Сегодня этот манго купили уже 25 раз!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="why wow animate__backInLeft" id="why">
+        <h2 class="why__title">Почему мы</h2>
+        <div class="why__cards">
+          <div class="why__card">
+            <img src="asseets/img/палец.png" alt="палец" />
+            <p>За 5 лет работы на рынке мы не получили ни одного негативного отзыва от наших клиентов</p>
+          </div>
+          <div class="why__card">
+            <img src="asseets/img/бумага.png" alt="бумага" />
+            <p>На все позиции есть сертификат, подтверждающий свежесть и безопасность закупаемых фруктов</p>
+          </div>
+          <div class="why__card">
+            <img src="asseets/img/бумага.png" alt="фрукт" />
+            <p>
+              Работаем с поставщиками из самых далеких стран, поэтому редкие фрукты вы сможете попробовать только у нас
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <img src="asseets/img/palma_2.png" class="palma__fruit_order" alt="" />
+      <div class="fruit__oreder" id="fruit__oreder">
+        <h2 class="title__fruit__order">Наши фрукты</h2>
+
+        <div class="fruit__oreder__btns">
+          <button class="fruit__oreder__btn">Все</button>
+          <button class="fruit__oreder__btn">Самые редкие</button>
+          <button class="fruit__oreder__btn">Акции</button>
+          <button class="fruit__oreder__btn">Новинки</button>
+        </div>
+
+        <div class="fruit__oreder__btns__adap">
+          <button class="fruit__oreder__btn__adap">Все</button>
+          <button class="fruit__oreder__btn__adap">Самые редкие</button>
+          <button class="fruit__oreder__btn__adap">Акции</button>
+          <button class="fruit__oreder__btn__adap">Новинки</button>
+        </div>
+
+        <div class="fruit__oreder__cards">
+          <div class="fruit__oreder__card">
+            <img src="asseets/img/манго.png" alt="манго" class="mango" />
+            <h3>Манго, Вьетнам</h3>
+            <p>50 руб./кг</p>
+            <button class="btn btn__order__fruit">Заказать</button>
+          </div>
+          <div class="fruit__oreder__card">
+            <img src="asseets/img/маракуйя.png" alt="маракуйя" class="passion" />
+            <h3>Маракуйя, Таиланд</h3>
+            <p>45 руб./кг</p>
+            <button class="btn btn__order__fruit">Заказать</button>
+          </div>
+          <div class="fruit__oreder__card">
+            <img src="asseets/img/кокос.png" alt="кокос" class="coconut" />
+            <h3>Кокос, ЮАР</h3>
+            <p>37 руб./кг</p>
+            <button class="btn btn__order__fruit">Заказать</button>
+          </div>
+          <div class="fruit__oreder__card">
+            <img src="asseets/img/питахайя.png" alt="питахайя" class="pitahaya" />
+            <h3>Питахайя, Таиланд</h3>
+            <p>61 руб./кг</p>
+            <button class="btn btn__order__fruit">Заказать</button>
+          </div>
+          <div class="fruit__oreder__card">
+            <img src="asseets/img/ананас.png" alt="ананас" class="pineapple" />
+            <h3>Ананас, Таиланд</h3>
+            <p>48 руб./кг</p>
+            <button class="btn btn__order__fruit">Заказать</button>
+          </div>
+          <div class="fruit__oreder__card">
+            <img src="asseets/img/папайя.png" alt="папайя" class="papaya" />
+            <h3>Папайя, Бразилия</h3>
+            <p>57 руб./кг</p>
+            <button class="btn btn__order__fruit">Заказать</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="order-points" id="order-points">
+        <h2 class="order-points__title">Как заказать</h2>
+        <div class="order-points__img">
+          <img src="asseets/img/figura.png" alt="" class="stage" />
+          <div class="order__stage">
+            <img src="asseets/img/stage__order__adap1-2.png" alt="" />
+            <img src="asseets/img/stage_order_adap3-4.png" alt="" />
+          </div>
+          <div class="order-points__txt pointer__one">Оформляете заказ на сайте</div>
+          <div class="order-points__txt pointer__two">Наши операторы свяжутся с вами для подтверждение заказа</div>
+          <div class="order-points__txt pointer__three">Мы собираем ваш заказ и отправляем его курьеру</div>
+          <div class="order-points__txt pointer__four">Курьер привозит заказ и вы его оплачиваете при получении</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="reviews" id="reviews">
+        <h2 class="reviews__title">Отзывы</h2>
+        <div class="reviews__slider">
+          <div class="swiper">
+            <div class="swiper-wrapper reviews__cards">
+              <div class="swiper-slide reviews__card">
+                <div class="reviews__user">
+                  <img src="asseets/img/анастасия.png" alt="" />
+                  <p>Анастасия</p>
+                </div>
+                <div class="reviews__txt">
+                  Не первый раз делаю заказ в этом магазине, всегда остаюсь довольна качеством редкий фруктов, которые
+                  реально не встретишь в магазине.
+                </div>
+              </div>
+              <div class="swiper-slide reviews__card">
+                <div class="reviews__user">
+                  <img src="asseets/img/александр.png" alt="" />
+                  <p>Александр</p>
+                </div>
+                <div class="reviews__txt">
+                  Отличный магазин, дети всегда радуются, когда приходит курьер с большим пакетом :) Спасибо магазину за
+                  вкусные и полезные фрукты!
+                </div>
+              </div>
+              <div class="swiper-slide reviews__card">
+                <div class="reviews__user">
+                  <img src="asseets/img/александр.png" alt="" />
+                  <p>Александр</p>
+                </div>
+                <div class="reviews__txt">
+                  Отличный магазин, дети всегда радуются, когда приходит курьер с большим пакетом :) Спасибо магазину за
+                  вкусные и полезные фрукты!
+                </div>
+              </div>
+              <div class="swiper-slide reviews__card">
+                <div class="reviews__user">
+                  <img src="asseets/img/анастасия.png" alt="" />
+                  <p>Анастасия</p>
+                </div>
+                <div class="reviews__txt">
+                  Не первый раз делаю заказ в этом магазине, всегда остаюсь довольна качеством редкий фруктов, которые
+                  реально не встретишь в магазине.
+                </div>
+              </div>
+              <div class="swiper-slide reviews__card">
+                <div class="reviews__user">
+                  <img src="asseets/img/александр.png" alt="" />
+                  <p>Александр</p>
+                </div>
+                <div class="reviews__txt">
+                  Отличный магазин, дети всегда радуются, когда приходит курьер с большим пакетом :) Спасибо магазину за
+                  вкусные и полезные фрукты!
+                </div>
+              </div>
+              <div class="swiper-slide reviews__card">
+                <div class="reviews__user">
+                  <img src="asseets/img/александр.png" alt="" />
+                  <p>Александр</p>
+                </div>
+                <div class="reviews__txt">
+                  Отличный магазин, дети всегда радуются, когда приходит курьер с большим пакетом :) Спасибо магазину за
+                  вкусные и полезные фрукты!
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="slider_nav">
+            <img src="asseets/img/prew.svg" alt="" class="prev" />
+            <img src="asseets/img/next.svg" alt="" class="next" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container container__faq">
+      <img src="asseets/img/footer_pap_iz.png" alt="" class="papar__iz" />
+      <img src="asseets/img/footer_pap.png" alt="" class="papar" />
+      <div class="faq">
+        <h2 class="faq__title">Часто задаваемые вопросы</h2>
+        <div class="akcord">
+          <div class="accordion" id="faqAccordion">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button
+                  class="accordion-button"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne"
+                  aria-expanded="true"
+                  aria-controls="collapseOne"
+                >
+                  Сколько ждать доставку заказа после оформления?
+                </button>
+              </h2>
+              <div
+                id="collapseOne"
+                class="accordion-collapse collapse show"
+                aria-labelledby="headingOne"
+                data-bs-parent="#faqAccordion"
+              >
+                <div class="accordion-body">
+                  В случае наличия всех товаров из вашего заказа, он будет доставлен в течении 2 часов.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="collapseTwo"
+                >
+                  Из каких стран доставляются фрукты?
+                </button>
+              </h2>
+              <div
+                id="collapseTwo"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingTwo"
+                data-bs-parent="#faqAccordion"
+              >
+                <div class="accordion-body">Наши фрукты доставляются из Вьетмана, Таиланда, ЮАР, Бразилии.</div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree"
+                  aria-expanded="false"
+                  aria-controls="collapseThree"
+                >
+                  Можно ли вернуть заказ, если качество мне не понравилось?
+                </button>
+              </h2>
+              <div
+                id="collapseThree"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingThree"
+                data-bs-parent="#faqAccordion"
+              >
+                <div class="accordion-body">Да, но у нас качество на высшем уровне!</div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingFour">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseFour"
+                  aria-expanded="false"
+                  aria-controls="collapseFour"
+                >
+                  Сколько стоит доставка?
+                </button>
+              </h2>
+              <div
+                id="collapseFour"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingFour"
+                data-bs-parent="#faqAccordion"
+              >
+                <div class="accordion-body">Доставка стоит ~200$.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <img src="asseets/img/Фигура_footer.png" class="footer__bg" alt="" />
+      <div class="container">
+        <img src="asseets/img/footer_pap_iz.png" alt="" class="papar__iz_adap" />
+        <img src="asseets/img/footer_pap.png" alt="" class="papar_adap" />
+        <div class="container__foter">
+          <div class="footer__left">
+            <div class="logo">
+              <!-- <img src="asseets/img/лого.png" alt="" class="footer__logo" /> -->
+              <img src="asseets/img/лого_2.png" alt="" class="footer__logo2" />
+            </div>
+            <div class="rights">Все права защищены, 2020</div>
+          </div>
+          <div class="footer__media">
+            <a href="">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                width="45px"
+                height="43px"
+              >
+                <image
+                  x="0px"
+                  y="0px"
+                  width="45px"
+                  height="43px"
+                  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC0AAAArCAQAAABGSskMAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAHdElNRQfqARQSMwfsvfyxAAACCUlEQVRIx72XMWsUQRTHfzu3xOY4DoNWKY4V7SysJESONKlS2diISWFvcWA+RAR7IVyXD2CVVoQUR0iCRQgIriksLO7kYk5BOfO3CHfZ3ezOzGHGN83szJsfjzdv9r0XCavc4CFtHnCPBRoYzvnOFz5yyHt6/LKeVfVoq6tTVcupumpXn6/aWFVPftLTqj860Y4ndiI7SnzQazqbESxJZ1orkqLcNRpe0bHfKz/4zGD69YjadP6al5yXX2NN2w7b3mpZcc62YW5/W7Vyh2xZsb/1pORehgWtrTJ0x2Hx89I4GF7R6xTRixpbwYeKPNFjLWbRczpy2PyigGyoqaaapU/qSHOX6A1ncN3PYJeVOrQ3Jui6+k70rQz6g1O7r7owwDrzuKSfmd91as+zfhHX+04rlPOzj+yLSAmfnFZAlHtlPnLHsOKlOLusxCxVbv7kaen64+nsNm8qTy+hvUp/DS1p4mK0LN7eMySBHJIYGoHQDUMcCB3HjCvhhtZ0fpJZv1xdsKDHkQbc9LBh9rj+ZkgDOSQ1HAdCHxt2A6F3g/5DUg4C2HxAaoBuAHQXIkGdE2cymM0hA1qMDDBi85pt3mSEd0afJcvkMrq7DvFHF+oQd/Xkj75SPblqPl90ac1nr1T90LlKNftD/cMzvlbU1+884sJSX19zV/Bfe5mgHdhk/GPfGIXrdv8CQ9hoAHJolbkAAAAASUVORK5CYII="
+                />
+              </svg>
+            </a>
+            <a href="">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                width="45px"
+                height="43px"
+              >
+                <image
+                  x="0px"
+                  y="0px"
+                  width="45px"
+                  height="43px"
+                  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC0AAAArCAQAAABGSskMAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAHdElNRQfqARQSMx6I1lRxAAAC90lEQVRIx72XS0hUURzGf3NnutUwmlZQUCFNEARtkuhhUkgE5WNV0EbaRYSrNEz3LSyUVq1EkKCFLS10ERVBRBbiJhGEEqkWkuboWPRw/FrM+5yZ6zjT9N3F8H9953Dm/B/HJzyxmWOc4QgH2UslDmss85lpJnjJW355xir/d1oDWlJ+LGlAp/PH5zM0aUyFYUxNhVOHNVogbRKjChdC3aroBoklKapWb2pHvUXQJtErJx+1Xw9LIJakh/Lnpu4vkViS+nNRt/8DYklqTzL6Eilzglf4jSsf4ykvmGUOgCgxAPxUALCLGho4lyOqnjfplHE1aa0+rBqPdEp+NRq2IiflpnfdyR1j7Xt0ICq4wCGqqTD2tsoKi0wxShQffdwwom9xN77rkOaNdcfkF7qkyDrnGtElIb+VufMKxf/GNiukWahOMU/at7qtWcVUJ9RsWdvi1OOGOipX5DjDTHxXSOi4pGEh18rgcREgTK1xUtP8BuqzdF94wGvm2UkdV9iDyzZW2JHw+820wVJLGF2zdvRYKJil6dHWjFuxVT2S5jSsH5KkoNBji+VagFNWCY8BboZ8kz7gMJfZxyeGeE8XX+mlJWF3+ZG485k4hd5Z6z0SqkpJz4VQl9YS8pq6hNDzlEeV0JDF8g4tWMpBod0p6bxQo+HRKHQ+Je0WGrRYFhwqc/a1Lan+9gy4alivAs+Q4ZuNSoeAZ+uM8AfYb2j3A3+IeEYGHFY9HarYBMwY2hlgE1WekasOyzkNPxO/Ps4C/Ya1HziLz/DNxrLDR0sZzHLvBEboTp2s6GYkoU9TBy2WjwGmOGoo3SypgQ766OFJxr2GDho8YgCmis/GNPJko09hPhjrTVALfKM6Q2fWkDQW2Q6MW5XoQLGVL428la/4eh3Hqk4KtVj6RL0upctcFPJbdWheoWJ7Y4woi0wxwgo+7nPdiE71xlI6eni9jr6ROSRZ0AqcQ8oyPf2Xma+sk2oZ5+uyvgrK/JYp6wss+ZX4bvSV77X7F9JKpeFWvMRHAAAAAElFTkSuQmCC"
+                />
+              </svg>
+            </a>
+            <a href="">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                width="45px"
+                height="43px"
+              >
+                <image
+                  x="0px"
+                  y="0px"
+                  width="45px"
+                  height="43px"
+                  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC0AAAArCAQAAABGSskMAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAHdElNRQfqARQSMzq01bCgAAACgUlEQVRIx7WXPWiTQRjH/0mbVkFFW3CxQwkqEhCpDnYowaVTN10KhXYRMrRi7eImOLgEMhY7lCKBWsEKbgUFsQ5iqaGDFsFBil+IEO1HQGs/fg5JXt+795ImNu/zLHf/u+fHvffecx8RVNVadVFJdem0OnREUe1qXZ/1Xkt6oQVtVo2lsieZYo3KtsYUycrxlRr6WKA2W6CvdnScuRqxZZsjXgt6kI06wQAbDFZHR8n8B7ZsGaKV0E1M7wMMME2TGz25TzDApAs91gAwwJiN7ma7Qehtuv3oFpYbBAZYpgWhqCRpVAk1zhIalaQI0iGtqL2BaCmvThWaJQ154F+6r0Kp3KErpdKEbui3F5bUvA8yqy9euU39ikmS2jWkcSFy3iy9MRLoXkldZcTQ/21ZT6wMfOW15JCIG7/gkq/jGXZL6iatPn3V691rgDvZ8ZHiImWgnxqdH3h6hwP92hrzQ4OUEllr6fT4Op9ks6Sec6B7DPCQxcmKRUt6aQTcLqmJAHrG6JegYHEWRT6w5C/7QmIsBSbkB/CRNp9ymHcBSl5sBcQPHDQm5Svf/Dsaz/jJWV89wqwjJ7fkTNU7xsce55RRb+eEUR9xMnCNGv4Yv20vf+skb0W17kjUmGZ0oOa0nnCq68EVUrbxOsZ9zUgWb4VkqWRX64APBCY2a2ej33YYcGJ6+U6aiKX2e9tC0VL2HmLDbwYQ4jEAdwMtt4zYuLnzuWyeLgtRPpEylt7MiheVKx5gw+xlz7nOeY4ixAXfrD4yNoBjfPJahgnzlIlKKijdULCUVkFhnuih30NCvT2JEO98od5UQ7xfFz2kV0HRQ3vLFD2kF1jZ9/lujIT32v0LRr4F/8dQhpkAAAAASUVORK5CYII="
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <a href="#section">
+      <div class="fix">
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="26px" height="12px">
+          <image
+            x="0px"
+            y="0px"
+            width="26px"
+            height="12px"
+            xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAMCAQAAADWzGXDAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAHdElNRQfqAQ0ULjsVIoiNAAAAxElEQVQoz5XRoYpCARCF4U8tFqvRZrAZrDbbmu4D2IxWX8C2ZpNZ8AkEH8BqMFhvNAmCYFB0Niws6l73uqfNOfwwc4Zs1a2t1f1DbXsh7LXfRXrOwtRUOOvlAwUj4WYIhm7CSOEvpGwunCQ/TuIkzJVfIVUrYaf14LbshJVqFtKQChu1X0nNRkg1noOOg7BQydyhYiEcdO7NvoswUXp5bclEuOh/j0Vj4WqQ2+zAVfhUZCYcfeR/A11HYcbSVvMtBJq2ll/IpT7Z/JfLeQAAAABJRU5ErkJggg=="
+          />
+        </svg>
+      </div>
+    </a>
+
+    <div class="order-popup" id="orderPopup">
+      <div class="popup-content">
+        <button class="popup-close">&times;</button>
+        <h3 class="popup-title">Заказать звонок</h3>
+        <p class="popup-subtitle">Оставьте ваши данные и мы перезвоним вам в течение 15 минут</p>
+
+        <div
+          id="popupSuccessMessage"
+          style="
+            display: none;
+            text-align: center;
+            padding: 20px;
+            color: rgb(30, 51, 19);
+            font-size: 18px;
+            font-weight: bold;
+          "
+        >
+          Спасибо, мы свяжемся с вами в ближайшее время!
+        </div>
+
+        <form class="popup-form" id="orderForm">
+          <div class="form-group">
+            <input type="text" id="name" name="name" placeholder="Ваше имя" required />
+            <div class="error-message" id="nameError"></div>
+          </div>
+          <div class="form-group">
+            <input type="tel" id="phone" name="phone" placeholder="Номер телефона" required />
+            <div class="error-message" id="phoneError"></div>
+          </div>
+          <button type="submit" class="popup-submit-btn">Отправить заявку</button>
+        </form>
+      </div>
+    </div>
+
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="scripts/jquery-3.7.1.min.js"></script>
+    <script src="scripts/wow.min.js"></script>
+    <script src="scripts/script.js"></script>
+  </body>
+</html>

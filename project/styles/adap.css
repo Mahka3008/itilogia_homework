@@ -1,0 +1,779 @@
+@media screen and (max-width: 1350px) {
+  .palma__fruit_order {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1110px) {
+  .fix {
+    transform: scale(0.5);
+    right: -5px;
+  }
+
+  .order-points__img img {
+    width: 100%;
+  }
+
+  .discription__fruit__title {
+    margin-top: 80px;
+  }
+
+  .discription__img img {
+    width: 100%;
+  }
+
+  section {
+    padding-bottom: 246px;
+  }
+
+  .aboutUs {
+    margin-top: 126px;
+  }
+
+  .img__position__left {
+    top: 750px;
+  }
+
+  .img__position__left img {
+    width: 200px;
+  }
+
+  .pointer__two {
+    bottom: -17%;
+    left: 25%;
+  }
+
+  .pointer__three {
+    top: 20%;
+    left: 51%;
+  }
+
+  .pointer__four {
+    top: 80%;
+    left: 76%;
+  }
+
+  .reviews__card {
+    background-size: 100% 260px;
+  }
+
+  .reviews__txt {
+    padding-top: 10px;
+    width: 80%;
+  }
+
+  .reviews__user img {
+    width: 71px;
+  }
+
+  .reviews__user p {
+    margin-bottom: 0;
+    font-size: 18px;
+  }
+
+  .reviews__user {
+    margin-top: 33px;
+  }
+
+  .reviews__txt {
+    margin-left: 61px;
+    font-size: 15px;
+  }
+
+  .prev {
+    top: 0px;
+    left: calc(50% - 32px);
+  }
+
+  .next {
+    right: calc(50% - 25px);
+    top: 0px;
+  }
+
+  .product__day__product {
+    flex-direction: column;
+  }
+  .img_and_time_container {
+    order: 1;
+  }
+
+  .product__day__slider {
+    order: 2;
+  }
+
+  .discription__product__day {
+    order: 3;
+  }
+
+  .vertical-slider {
+    display: none;
+  }
+
+  .horizontal-slider {
+    display: block;
+  }
+
+  .papar__iz,
+  .papar {
+    display: none;
+  }
+
+  .papar__iz_adap,
+  .papar_adap {
+    display: block;
+  }
+
+  .papar_adap {
+    position: absolute;
+    top: 20%;
+    width: 155px;
+    left: 0;
+  }
+
+  .papar__iz_adap {
+    position: absolute;
+    top: 0%;
+    width: 124px;
+    left: 0;
+  }
+}
+
+@media screen and (max-width: 775px) {
+  section {
+    padding-bottom: 0px;
+    overflow-x: visible;
+  }
+  .header__menu__items {
+    display: none;
+  }
+
+  .header__burger {
+    display: block;
+    width: 36px;
+    height: 36px;
+    fill: #000000cd;
+  }
+
+  .discription {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .bg_header {
+    display: none;
+  }
+
+  .bg_header2 {
+    display: block;
+    position: absolute;
+    z-index: -1;
+    height: 100%;
+    width: 100vw;
+  }
+
+  .discription__fruit {
+    display: contents;
+  }
+
+  .discription__fruit__title {
+    order: 1;
+    font-size: 28px;
+    line-height: 1.179;
+  }
+
+  .discription__fruit__txt {
+    padding: 0;
+    margin-bottom: 20px;
+    order: 3;
+    max-width: 375px;
+  }
+
+  .discription__img {
+    margin: 30px 0;
+    width: 100%;
+    order: 2;
+  }
+
+  .discription__btn {
+    order: 4;
+  }
+
+  .discription__img img {
+    width: 65%;
+  }
+
+  .aboutUs {
+    flex-direction: column;
+    text-align: center;
+    margin-top: 165px;
+  }
+
+  .about__discription {
+    display: contents;
+  }
+
+  .img__aboutUs {
+    width: 70%;
+    order: 2;
+  }
+
+  .img__aboutUs img {
+    width: 100%;
+  }
+
+  .about__title {
+    font-size: 26px;
+    order: 1;
+    margin-bottom: 30px;
+  }
+
+  .about__txt {
+    max-width: 500px;
+    order: 3;
+  }
+
+  .about__txt p:nth-child(odd) {
+    margin-top: 30px;
+  }
+
+  .product__day {
+    margin-top: 80px;
+  }
+
+  .img__product__fruit {
+    order: 1;
+  }
+
+  .time__sale {
+    margin-left: 0;
+  }
+
+  .img__product__fruit {
+    padding-left: 20px;
+  }
+
+  .horizontal-slider {
+    position: relative;
+    bottom: 0;
+    left: 0%;
+  }
+
+  .title__fruit__order {
+    font-size: 26px;
+  }
+
+  .reviews {
+    margin-top: 99px;
+  }
+
+  .prev {
+    top: -60px;
+    left: calc(50% - 32px);
+  }
+
+  .next {
+    right: calc(50% - 25px);
+    top: -60px;
+  }
+
+  .product__day {
+    overflow: hidden;
+    margin-top: 100px;
+  }
+
+  .why {
+    margin-top: 98px;
+  }
+
+  .why__title {
+    font-size: 26px;
+  }
+
+  .why__cards {
+    margin: auto;
+    max-width: 496px;
+    flex-direction: column;
+  }
+
+  .img__position__left {
+    left: -56px;
+    transform: scale(0.5);
+    top: 12%;
+  }
+
+  .fruit__oreder {
+    margin-top: 100px;
+  }
+
+  .fruit__oreder__cards {
+    margin-top: 30px;
+    padding-top: 0;
+  }
+
+  .fruit__oreder__card {
+    width: 200px;
+  }
+
+  .fruit__oreder__card img {
+    width: 130px;
+    margin-bottom: 20px;
+  }
+
+  .fruit__oreder__card h3 {
+    font-size: 14px;
+    padding-bottom: 16px;
+    margin-bottom: 0;
+  }
+
+  .fruit__oreder__card p {
+    font-size: 14px;
+    padding-bottom: 30px;
+    margin-bottom: 0;
+  }
+
+  .fruit__oreder__cards {
+    gap: 50px;
+    padding-top: 50px;
+  }
+
+  .btn__order__fruit {
+    width: 120px;
+    height: 25px;
+    font-size: 14px;
+  }
+
+  .order-points {
+    margin-top: 129px;
+  }
+
+  .order-points__title {
+    font-size: 26px;
+  }
+
+  .order-points__txt {
+    font-size: 12px;
+  }
+
+  .pointer__two {
+    width: 169px;
+  }
+
+  .order__stage {
+    display: flex;
+    width: 305px;
+    margin: 0 auto;
+    gap: 115px;
+  }
+
+  .stage {
+    display: none;
+  }
+
+  .pointer__one {
+    top: 12%;
+    left: 21%;
+  }
+
+  .pointer__two {
+    top: 32%;
+    left: 44%;
+  }
+
+  .pointer__three {
+    top: 68%;
+    left: 26%;
+  }
+
+  .pointer__four {
+    top: 73%;
+    left: 66%;
+  }
+
+  .reviews__card {
+    background-size: 100% 220px;
+  }
+
+  .reviews__slider {
+    padding-top: 49px;
+  }
+
+  .faq {
+    margin-top: 99px;
+  }
+
+  .reviews__slider .swiper {
+    width: 400px;
+  }
+
+  .faq__title {
+    font-size: 26px;
+  }
+
+  .faq {
+    margin-top: 100px;
+  }
+
+  .header__burger {
+    display: block;
+    width: 36px;
+    height: 36px;
+  }
+
+  .menu__close {
+    display: block;
+    width: 24px;
+    height: 24px;
+    fill: #c0707c;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+
+  .menu.open {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .menu__close {
+    display: block;
+    width: 24px;
+    height: 24px;
+    fill: #c0707c;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+  }
+
+  .dropdown {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 9998;
+    width: 100%;
+    text-align: center;
+  }
+
+  .dropdown__container {
+    position: fixed;
+    left: calc(50% - 145px);
+    top: 30px;
+    z-index: 9999;
+    background-image: url(../asseets/img/dropdown.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-left: 0;
+    padding: 40px 0 50px 0;
+    width: 290px;
+  }
+
+  .dropdown__title {
+    font-size: 20px;
+    font-family: 'monsterEB';
+    color: rgb(13, 26, 7);
+    margin-bottom: 30px;
+  }
+
+  .dropdown .header__items {
+    font-size: 14px;
+    padding: 0;
+    margin-bottom: 15px;
+    border-bottom: 0;
+  }
+
+  .dropdown .header__items:last-of-type {
+    margin-bottom: 0px;
+  }
+
+  .header__menu__items__dropdown {
+    padding-left: 0;
+    list-style-type: none;
+    margin-bottom: 0;
+  }
+
+  .dropdown .menu {
+    position: relative;
+  }
+
+  .close_dropdown {
+    position: fixed;
+    right: 15px;
+    top: 30px;
+    display: block;
+    padding: 2px 10px 6px 10px;
+    background-color: #fdde0b;
+    border-radius: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .time__sale {
+    width: 64px;
+    height: 235px;
+    padding: 10px 5px 10px 5px;
+    gap: 5px;
+  }
+
+  .sale__title {
+    font-size: 10px;
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
+
+  .circle__span {
+    font-size: 14px;
+  }
+
+  .circle {
+    font-size: 9px;
+  }
+
+  img__product__fruit img {
+    width: 200px;
+  }
+
+  .fruit__oreder__btns {
+    display: none;
+  }
+
+  .fruit__oreder__btns__adap {
+    display: flex;
+    font-size: 14px;
+  }
+
+  .palma__fruit_order {
+    display: none;
+  }
+
+  .pointer__one {
+    top: 13%;
+    left: 7%;
+  }
+
+  .pointer__three {
+    top: 68%;
+    left: 17%;
+  }
+
+  .pointer__four {
+    top: 85%;
+    left: 43%;
+  }
+
+  .mango__img {
+    width: 200px;
+  }
+
+  .horizontal-swiper .swiper-slide img {
+    width: 55px;
+  }
+
+  .product__day__title {
+    font-size: 26px;
+  }
+
+  .product__day {
+    margin-top: 100px;
+  }
+}
+
+@media screen and (max-width: 481px) {
+  .discription__fruit__txt {
+    font-size: 14px;
+    line-height: 1.357;
+    max-width: 257px;
+  }
+
+  .btn {
+    width: 214px;
+    height: 54px;
+    font-size: 14px;
+  }
+
+  .btn__order__fruit {
+    width: 90px;
+    height: 25px;
+    font-size: 11px;
+  }
+
+  .fruit__oreder__card {
+    width: 123px;
+  }
+
+  .fruit__oreder__card img {
+    width: 80px;
+    margin-bottom: 20px;
+  }
+
+  .fruit__oreder__card h3 {
+    font-size: 12px;
+    padding-bottom: 16px;
+    margin-bottom: 0;
+  }
+
+  .fruit__oreder__card p {
+    font-size: 12px;
+    padding-bottom: 35px;
+    margin-bottom: 0;
+  }
+
+  .fruit__oreder__cards {
+    gap: 50px;
+    padding-top: 50px;
+  }
+
+  .reviews__card {
+    background-size: 280px 190px;
+  }
+  .reviews__slider .swiper {
+    width: 290px;
+  }
+
+  .reviews__user {
+    font-size: 12px;
+    gap: 11px;
+  }
+
+  .reviews__txt {
+    font-size: 11px;
+    width: 209px;
+    padding-top: 11px;
+  }
+
+  .reviews__user img {
+    width: 48px;
+  }
+
+  .reviews__user p {
+    font-size: 12px;
+    margin-bottom: 0;
+  }
+  .reviews__title {
+    font-size: 26px;
+  }
+
+  .reviews__txt {
+    margin-left: 45px;
+  }
+
+  .pointer__one {
+    top: 12%;
+    left: 15%;
+  }
+
+  .pointer__three {
+    top: 68%;
+    left: 5%;
+  }
+
+  .img__product__fruit {
+    padding-left: 3px;
+  }
+
+  .img__product__fruit .position {
+    width: 40px;
+  }
+
+  .footer {
+    background-image: url(../asseets/img/footer__adap.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: 85px;
+    padding-top: 140px;
+  }
+
+  .container__foter {
+    justify-content: space-around;
+    padding-left: 20px;
+  }
+
+  .footer__logo2 {
+    display: block;
+  }
+
+  .footer__bg {
+    display: none;
+  }
+
+  .title__product__day {
+    font-size: 26px;
+    padding-bottom: 20px;
+  }
+
+  .txt__product__day {
+    font-size: 14px;
+    line-height: 1.357;
+    padding-bottom: 21px;
+  }
+
+  .price__product__day {
+    padding-bottom: 25px;
+  }
+
+  .fruit__oreder {
+    margin-top: 100px;
+  }
+
+  .txt__price__product__day,
+  .number__price__product__day {
+    font-size: 14px;
+  }
+
+  .discription__product__day {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .txt__product__day {
+    width: 100%;
+  }
+
+  .buy__product__day p {
+    font-size: 12px;
+  }
+
+  .papar_adap {
+    width: 100px;
+  }
+
+  .papar__iz_adap {
+    width: 85px;
+  }
+}
+
+@media screen and (max-width: 369px) {
+  .about__txt p {
+    max-width: 290px;
+  }
+
+  .pointer__one {
+    top: 12%;
+    left: 11%;
+  }
+
+  .container__foter {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer__logo2 {
+    margin: 0 auto;
+  }
+
+  .footer__media {
+    position: absolute;
+    top: 59%;
+  }
+
+  .rights {
+    padding-top: 81px;
+  }
+}
